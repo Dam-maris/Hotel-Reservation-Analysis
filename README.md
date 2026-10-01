@@ -26,13 +26,12 @@ SQL, IBM Db2, PowerPoint.
 | Lead time range | 0 to 443 days |
 | Guests | 1,316 adults and 69 children (children about 5%) |
 | Busiest month in 2018 | June, 84 reservations (January lowest, 26) |
-| Average price per room, bookings with children | about 144.57 |
-| Average price per room, Online segment | about 112.46 |
+| Average price per room, bookings with children | $144.57 |
+| Average price per room, Online segment | $112.46 |
 
 Bookings with children cost about 29% more per room than the online average.
 
 
 ## Limitations and next steps
 - Small sample of 700 reservations.
-- Cancellation analysis (rate by segment and by lead time) once Q9 is re-run with the real status values.
 - A Power BI dashboard on top of these results.
