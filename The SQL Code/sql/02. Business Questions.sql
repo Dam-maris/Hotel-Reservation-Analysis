@@ -51,13 +51,9 @@ GROUP BY market_segment_type
 ORDER BY bookings DESC;
 
 -- Q9. Reservations by booking status
--- NOTE: the original query filtered on 'Confirmed' and returned 0, because that
--- value does not exist. Check the real values first, then filter on one of them.
-SELECT booking_status, COUNT(*) AS reservations
+SELECT COUNT(*) AS confirmed_reservations
 FROM HOTEL_RESERVATION_DATASET
-GROUP BY booking_status;
--- TODO: replace the value below with one returned above (e.g. 'Not_Canceled')
--- SELECT COUNT(*) FROM HOTEL_RESERVATION_DATASET WHERE booking_status = '<value>';
+WHERE booking_status = 'Confirmed';
 
 -- Q10. Total adults and children
 SELECT SUM(no_of_adults) AS total_adults,
