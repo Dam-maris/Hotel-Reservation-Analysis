@@ -12,7 +12,7 @@ A hotel manager wants to know who is booking, when, what they choose and what th
 SQL, IBM Db2, PowerPoint.
 
 ## Approach
-1. Checked data quality first (duplicates, NULLs, impossible values, distinct categories): [sql/01_data_quality_checks.sql](sql/01.%20Data%20Quality%20Checks.sql)
+1. Checked data quality first (duplicates, NULLs, impossible values, distinct categories): [Data Quality](sql/01.%20Data%20Quality%20Checks.sql)
 2. Answered 15 business questions using aggregations, filters, a CTE and a window function: [sql/02_business_questions.sql](sql/02%20Business%20Questions.sql)
 3. Summarised the results in a short deck: [presentation/Hotel_Reservation_SQL_Analysis.pdf](presentation/Hotel_Reservation_SQL_Analysis.pdf)
 
