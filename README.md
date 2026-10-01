@@ -6,14 +6,14 @@ Answering 15 business questions about hotel bookings using SQL on IBM Db2, compl
 A hotel manager wants to know who is booking, when, what they choose and what they pay, so that pricing, staffing and promotions can be planned with data.
 
 ## Dataset
-700 reservations. See [Data](Data/README.md) for the columns. The data is not included in this repo. All findings describe this sample only.
+700 reservations. See [Data](Data/.gitkeep) for the columns. The data is not included in this repo. All findings describe this sample only.
 
 ## Tools
 SQL, IBM Db2, PowerPoint.
 
 ## Approach
 1. Checked data quality first (duplicates, NULLs, impossible values, distinct categories): [Data Quality](The%20SQL%20Code/sql/01.%20Data%20Quality%20Checks.sql)
-2. Answered 15 business questions using aggregations, filters, a CTE and a window function: [sql/02_business_questions.sql](The%20SQL%20Code/sql/02%20Business%20Questions.sql)
+2. Answered 15 business questions using aggregations, filters, a CTE and a window function: [Business Questions](The%20SQL%20Code/sql/02.%20Business%20Questions.sql)
 3. Summarised the results in a short deck: [presentation/Hotel_Reservation_SQL_Analysis.pdf](Presentation/Hotel_Reservation_SQL_Analysis.pdf)
 
 ## Key findings
