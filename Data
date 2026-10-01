@@ -1,0 +1,16 @@
+# Data
+
+The dataset (`HOTEL_RESERVATION_DATASET`, 700 rows) was provided by Mentorness for the internship project and is not included in this repo.
+
+| Column | Meaning |
+|---|---|
+| Booking_ID | Unique reservation ID |
+| no_of_adults / no_of_children | Guests per reservation |
+| no_of_weekend_nights / no_of_week_nights | Length of stay |
+| type_of_meal_plan | Meal plan chosen |
+| room_type_reserved | Room type |
+| lead_time | Days between booking and arrival |
+| arrival_date | Date of arrival |
+| market_segment_type | Booking channel (e.g. Online) |
+| avg_price_per_room | Average price per room |
+| booking_status | Status of the booking |
