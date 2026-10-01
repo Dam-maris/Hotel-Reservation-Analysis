@@ -14,7 +14,7 @@ SQL, IBM Db2, PowerPoint.
 ## Approach
 1. Checked data quality first (duplicates, NULLs, impossible values, distinct categories): [Data Quality](The%20SQL%20Code/sql/01.%20Data%20Quality%20Checks.sql)
 2. Answered 15 business questions using aggregations, filters, a CTE and a window function: [Business Questions](The%20SQL%20Code/sql/02.%20Business%20Questions.sql)
-3. Summarised the results in a short deck: [presentation/Hotel_Reservation_SQL_Analysis.pdf](Presentation/Hotel_Reservation_SQL_Analysis.pdf)
+3. Summarised the results in a short deck: [Presentation](Presentation/Hotel_Reservation_SQL_Analysis.pdf)
 
 ## Key findings
 | Finding | Number |
