@@ -6,7 +6,7 @@ Answering 15 business questions about hotel bookings using SQL on IBM Db2, compl
 A hotel manager wants to know who is booking, when, what they choose and what they pay, so that pricing, staffing and promotions can be planned with data.
 
 ## Dataset
-700 reservations. See [Data](Data/.gitkeep) for the columns. The data is not included in this repo. All findings describe this sample only.
+700 reservations. See [Data](Data) for the columns. The data is not included in this repo. All findings describe this sample only.
 
 ## Tools
 SQL, IBM Db2, PowerPoint.
